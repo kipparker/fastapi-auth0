@@ -8,6 +8,8 @@ Let start with the Auth0 part. Log in to your account, go to Applications > APIs
 
 Next, get the details of the API and Application that's been created. Go to Applications, open the menu next to the application you've created and open "settings". You'll need to copy all of it, the domain, client ID and client secret.
 
+![Shows the window that displays Auth0 details](/media/details.png "Auth0 details")
+
 Next some code. I won't go through setting up the project, check [the example repo](https://github.com/kipparker/fastapi-auth0) if you want details. We'll need an endpoint to secure, this will do:
 
 ```python
