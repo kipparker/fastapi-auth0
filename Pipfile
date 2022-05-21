@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+mypy = "*"
+types-requests = "*"
+requests = "*"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+uvloop = "*"
+boto3 = "*"
+pyjwt = {extras = ["crypto"], version = "*"}

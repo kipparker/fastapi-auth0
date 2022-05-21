@@ -1,0 +1,6 @@
+ .DS_Store
+.python-version
+.mypy_cache
+.env
+
+.DS_Store
